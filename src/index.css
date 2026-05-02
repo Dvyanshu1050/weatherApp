@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+@keyframes rainFall {
+  to { transform: translateY(100vh); }
+}
+
+@keyframes snowFall {
+  to { transform: translateY(100vh); }
+}

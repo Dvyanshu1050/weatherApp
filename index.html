@@ -1,22 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App - By Divyanshu</title>
-  <link rel="stylesheet" href="weather.css">
-</head>
-<body>
-    <button class="toggle-theme" onclick="toggleTheme()">🌙</button>
-    <div class="container">
-        <h1>Weather App 🌦️</h1>
-        <input type="text" id="city" placeholder="Enter City">
-        <input type="text" id="country" placeholder="Enter Country">
-        <button onclick="getWeather()">Get Weather</button>
-        <div id="weather"></div>
-        <p class="footer">Developed with ❤️ by <a href="#">Divyanshu Maurya</a></p>
-    </div>
-    
-    <script src="weather.js "></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weatherapp</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
